@@ -42,3 +42,6 @@ A bundle to create a short url system
 mlpz_short:
     resource: "@MLPZShortURLBundle/Resources/config/routing.xml"
 ```
+
+*How to use
+     shorten?url=url to shorter
