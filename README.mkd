@@ -2,7 +2,7 @@
 
 A bundle to create a short url system
 
-## Installation
+## Installation Guide
 * Add ShortURLBundle to your src/Bundle dir
 
         git submodule add https://github.com/miguel250/ShortURLBundle.git src/MLPZ/ShortURLBundle
@@ -28,9 +28,17 @@ A bundle to create a short url system
 <?php
 
       // app/autoload.php
-       $loader->registerNamespaces(array(
+   $loader->registerNamespaces(array(
     // ...
     'MLPZ'             => __DIR__.'/../src',
     // ...
-         ));
+  ));
+```
+
+* Add ShortURLBundle routes to your application routing.yml
+
+``` yml
+# app/config/routing.yml
+mlpz_short:
+    resource: "@MLPZShortURLBundle/Resources/config/routing.xml"
 ```
