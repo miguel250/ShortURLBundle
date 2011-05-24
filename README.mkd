@@ -45,5 +45,5 @@ mlpz_short:
 
 * How to use
 
-     shorten?url=url to shorter
+       shorten?url=url to shorter
 
